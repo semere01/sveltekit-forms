@@ -10,7 +10,7 @@
 <form method="POST" action="?/create" >
 	<label>
 		Create a user
-		<input name="username" >
+		<input name="email" >
 	</label>
 	<button>Submit</button>
 </form>

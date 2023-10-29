@@ -7,7 +7,7 @@ export const actions = {
   // },
   create: async (event) => {		// TODO log the user in
     const formData = await event.request.formData();
-    console.log(`Creating your user - ${formData.get("username")}`)
+    console.log(`Creating your user - ${formData.get("email")}`)
   },
 } satisfies Actions;
 
